@@ -4,7 +4,7 @@ import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-#Load the LSTM Model
+#Load the LSTM/GRU Model
 model=load_model('models/next_word_GRU.h5')
 
 #3 Laod the tokenizer
